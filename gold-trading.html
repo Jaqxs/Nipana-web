@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Gold Trading — NIPANA Atlas</title>
+<meta name="description" content="Our gold desk in Mwanza. We buy from licensed producers and sell to verified buyers. Honest scales, honest paperwork." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="page-loader"><div class="loader-mark">N&nbsp;A&nbsp;C</div><div class="loader-bar"></div></div>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><img src="images/logo.png" alt="NIPANA Atlas" class="brand-logo"/></a>
+    <nav class="nav-links">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="mining.html" class="nav-link">Mining</a>
+      <a href="gold-trading.html" class="nav-link active">Gold Trading</a>
+      <a href="construction.html" class="nav-link">Construction Supplies</a>
+      <a href="investment.html" class="nav-link">Investment</a>
+    </nav>
+    <a href="contact.html" class="nav-cta">Contact <i class="ri-arrow-right-up-line"></i></a>
+    <button class="nav-toggle" aria-label="Menu"><i class="ri-menu-3-line"></i></button>
+  </div>
+</header>
+
+<div class="mobile-menu">
+  <a href="index.html">Home <i class="ri-arrow-right-up-line"></i></a>
+  <a href="about.html">About <i class="ri-arrow-right-up-line"></i></a>
+  <a href="mining.html">Mining <i class="ri-arrow-right-up-line"></i></a>
+  <a href="gold-trading.html">Gold Trading <i class="ri-arrow-right-up-line"></i></a>
+  <a href="construction.html">Construction Supplies <i class="ri-arrow-right-up-line"></i></a>
+  <a href="investment.html">Investment <i class="ri-arrow-right-up-line"></i></a>
+  <a href="contact.html">Contact <i class="ri-arrow-right-up-line"></i></a>
+</div>
+
+<section class="page-hero" data-bg="gold">
+  <div class="container">
+    <span class="hero-tag reveal">Gold Trading</span>
+    <h1 class="reveal" style="--reveal-delay:.1s">The desk<br/><span class="italic">in Mwanza.</span></h1>
+    <div class="hero-dashes reveal" style="--reveal-delay:.2s"><span></span><span></span><span></span></div>
+  </div>
+</section>
+<div class="hero-shelf">
+  <div class="container">
+    <div class="shelf-inner">
+      <nav class="breadcrumb">
+        <a href="index.html">Home</a>
+        <i class="ri-arrow-right-s-line"></i>
+        <span class="current">Gold Trading</span>
+      </nav>
+      <div class="shelf-actions">
+        <span>Share</span>
+        <a href="#" aria-label="Share on Facebook"><i class="ri-facebook-fill"></i></a>
+        <a href="#" aria-label="Share on Twitter"><i class="ri-twitter-x-fill"></i></a>
+        <a href="#" aria-label="Share on LinkedIn"><i class="ri-linkedin-fill"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+<section class="page-lead">
+  <div class="container">
+    <p class="reveal">A licensed desk that buys gold from the people who mine it and sells it to the people who refine it. Honest scales. Real paperwork. The same handshake every time.</p>
+  </div>
+</section>
+
+<!-- Live ticker style -->
+<div class="ticker">
+  <div class="ticker-track">
+    <div class="ticker-item"><span class="gold-dot"></span><span class="label">XAU/USD</span> 2,648.50 <span class="up">▲ 0.42%</span></div>
+    <div class="ticker-item"><span class="gold-dot"></span><span class="label">DESK BID</span> -0.8% spot</div>
+    <div class="ticker-item"><span class="gold-dot"></span><span class="label">REFINING PURITY</span> 999.0 / 1000</div>
+    <div class="ticker-item"><span class="gold-dot"></span><span class="label">DESK STATUS</span> Open · Mwanza</div>
+    <div class="ticker-item"><span class="gold-dot"></span><span class="label">SETTLEMENT</span> T+1 standard</div>
+    <div class="ticker-item"><span class="gold-dot"></span><span class="label">XAU/USD</span> 2,648.50 <span class="up">▲ 0.42%</span></div>
+    <div class="ticker-item"><span class="gold-dot"></span><span class="label">DESK BID</span> -0.8% spot</div>
+    <div class="ticker-item"><span class="gold-dot"></span><span class="label">REFINING PURITY</span> 999.0 / 1000</div>
+    <div class="ticker-item"><span class="gold-dot"></span><span class="label">DESK STATUS</span> Open · Mwanza</div>
+    <div class="ticker-item"><span class="gold-dot"></span><span class="label">SETTLEMENT</span> T+1 standard</div>
+  </div>
+</div>
+
+<!-- Buy / Sell columns -->
+<section class="section">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow center reveal">Two sides</span>
+      <h2 class="font-display reveal" style="--reveal-delay:.1s">Buying.<br/><span class="italic">Selling.</span></h2>
+    </div>
+
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--line); border:1px solid var(--line);">
+      <div style="background:var(--bg); padding:56px 48px;" class="reveal">
+        <div style="display:flex; align-items:center; gap:12px; margin-bottom:32px;">
+          <i class="ri-arrow-down-circle-line" style="font-size:32px; color:var(--gold-deep);"></i>
+          <div class="eyebrow">We Buy</div>
+        </div>
+        <h3 class="font-display" style="font-size:36px; margin-bottom:20px;">From people who mine it</h3>
+        <p style="color:var(--ink-soft); line-height:1.8;">
+          We buy doré bars and rough gold from licensed Tanzanian producers and dealers we know. Four checks every time: who you are, where it came from, what it weighs, what it tests.
+        </p>
+        <ul style="list-style:none; padding:0; margin:32px 0 0; display:flex; flex-direction:column; gap:12px;">
+          <li style="display:flex; gap:12px; align-items:center; font-size:14px;"><i class="ri-check-line" style="color:var(--gold-deep);"></i> We check the mining licence</li>
+          <li style="display:flex; gap:12px; align-items:center; font-size:14px;"><i class="ri-check-line" style="color:var(--gold-deep);"></i> We record where it came from</li>
+          <li style="display:flex; gap:12px; align-items:center; font-size:14px;"><i class="ri-check-line" style="color:var(--gold-deep);"></i> We weigh in front of you</li>
+          <li style="display:flex; gap:12px; align-items:center; font-size:14px;"><i class="ri-check-line" style="color:var(--gold-deep);"></i> You're paid the same day</li>
+        </ul>
+      </div>
+      <div style="background:var(--bg); padding:56px 48px;" class="reveal" style="--reveal-delay:.1s">
+        <div style="display:flex; align-items:center; gap:12px; margin-bottom:32px;">
+          <i class="ri-arrow-up-circle-line" style="font-size:32px; color:var(--gold-deep);"></i>
+          <div class="eyebrow">We Sell</div>
+        </div>
+        <h3 class="font-display" style="font-size:36px; margin-bottom:20px;">To people who refine it</h3>
+        <p style="color:var(--ink-soft); line-height:1.8;">
+          We sell to refineries and verified buyers under written contract. Every shipment goes with the paperwork — where it came from, what it tested at, and how it left the country.
+        </p>
+        <ul style="list-style:none; padding:0; margin:32px 0 0; display:flex; flex-direction:column; gap:12px;">
+          <li style="display:flex; gap:12px; align-items:center; font-size:14px;"><i class="ri-check-line" style="color:var(--gold-deep);"></i> A file showing where it came from</li>
+          <li style="display:flex; gap:12px; align-items:center; font-size:14px;"><i class="ri-check-line" style="color:var(--gold-deep);"></i> An independent assay</li>
+          <li style="display:flex; gap:12px; align-items:center; font-size:14px;"><i class="ri-check-line" style="color:var(--gold-deep);"></i> Bank-to-bank money</li>
+          <li style="display:flex; gap:12px; align-items:center; font-size:14px;"><i class="ri-check-line" style="color:var(--gold-deep);"></i> Insured shipping</li>
+        </ul>
+      </div>
+    </div>
+    <style>@media(max-width:768px){section.section > .container > div[style*="grid-template-columns:1fr 1fr"]{grid-template-columns:1fr !important;}}</style>
+  </div>
+</section>
+
+<!-- Visual break -->
+<section style="padding:0 0 0 0;">
+  <div class="container">
+    <div class="reveal media-frame wide" style="aspect-ratio:21/9;">
+      <img src="images/u3.jpg" alt="Gold desk and bars" loading="lazy"/>
+    </div>
+  </div>
+</section>
+
+<!-- Compliance -->
+<section class="section">
+  <div class="container">
+    <div class="two-col">
+      <div>
+        <span class="eyebrow reveal">How we stay clean</span>
+        <h2 class="font-display reveal mt-4" style="font-size:clamp(36px,5vw,52px); --reveal-delay:.1s">
+          Four checks.<br/><span class="italic">Always.</span>
+        </h2>
+      </div>
+      <div class="reveal" style="--reveal-delay:.2s">
+        <ul class="feature-list">
+          <li>
+            <span class="num">/ 01</span>
+            <div>
+              <h4>Who you are</h4>
+            <p>National ID, business papers, who really owns the company. We file it and keep it for seven years.</p>
+            </div>
+          </li>
+          <li>
+            <span class="num">/ 02</span>
+            <div>
+              <h4>Where it came from</h4>
+            <p>Which licence, which site, signed by you. No source, no sale.</p>
+            </div>
+          </li>
+          <li>
+            <span class="num">/ 03</span>
+            <div>
+              <h4>The lists</h4>
+            <p>We check sanctions lists before we settle. If you're on one, we don't deal.</p>
+            </div>
+          </li>
+          <li>
+            <span class="num">/ 04</span>
+            <div>
+              <h4>The reports</h4>
+            <p>Big transactions go to the Financial Intelligence Unit on time. We don't skip the filings.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Process -->
+<section class="section" style="background:var(--bg-alt);">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow reveal">A day at the desk</span>
+        <h2 class="font-display reveal" style="--reveal-delay:.1s">In at nine.<br/><span class="italic">Paid by five.</span></h2>
+      </div>
+    </div>
+
+    <div class="process-grid reveal-stagger">
+      <div class="process-step">
+        <div class="step-num">/ 01</div>
+        <h4>You arrive</h4>
+          <p>Bring the bar, bring your ID and licence. We open the seal in front of you.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-num">/ 02</div>
+        <h4>We test</h4>
+          <p>Two tests in our own lab. If you want a third opinion from outside, we'll send a split.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-num">/ 03</div>
+        <h4>We price</h4>
+          <p>Live London spot, less the refining fee and our margin. The numbers are on the wall, not in our heads.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-num">/ 04</div>
+        <h4>You leave paid</h4>
+          <p>Bank transfer to your account, a receipt in your hand, and the tax forms filed.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand"><img src="images/logo.png" alt="NIPANA Atlas" class="footer-logo"/></div>
+        <p class="footer-desc">A Tanzanian company working in gold mining, gold trade, and the wholesale of construction, hardware, plumbing and heating goods. Based in Mwanza.</p>
+      </div>
+      <div>
+        <h5>What we do</h5>
+        <ul>
+          <li><a href="mining.html">Mining</a></li>
+          <li><a href="gold-trading.html">Gold Trading</a></li>
+          <li><a href="construction.html">Construction Supplies</a></li>
+          <li><a href="investment.html">Investment</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Company</h5>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="about.html#timeline">Our Story</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Find us</h5>
+        <ul>
+          <li style="color:rgba(255,255,255,0.55);font-size:13px;line-height:1.7;">
+            Plot 27, Block A, House 35<br/>
+            Nyang'homango Road, Usagara<br/>
+            Misungwi, Mwanza, Tanzania<br/>
+            P.O. Box 20 · 33517
+          </li>
+          <li style="margin-top:12px"><a href="mailto:info@nipanaatlas.co.tz">info@nipanaatlas.co.tz</a></li>
+          <li><a href="tel:+255777913152">+255 777 913 152</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> NIPANA Atlas Corporation Limited.</span>
+      <span>Mwanza · Tanzania</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

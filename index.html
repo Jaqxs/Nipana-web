@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>NIPANA Atlas — Gold, Mining & Trade in Tanzania</title>
+<meta name="description" content="A Tanzanian house working in gold mining, gold trade, and the supply of construction, hardware, plumbing and heating goods." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- Loader -->
+<div class="page-loader">
+  <div class="loader-mark">N&nbsp;A&nbsp;C</div>
+  <div class="loader-bar"></div>
+</div>
+
+<!-- Nav -->
+<header class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><img src="images/logo.png" alt="NIPANA Atlas" class="brand-logo"/></a>
+    <nav class="nav-links">
+      <a href="index.html" class="nav-link active">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="mining.html" class="nav-link">Mining</a>
+      <a href="gold-trading.html" class="nav-link">Gold Trading</a>
+      <a href="construction.html" class="nav-link">Construction Supplies</a>
+      <a href="investment.html" class="nav-link">Investment</a>
+    </nav>
+    <a href="contact.html" class="nav-cta">Contact <i class="ri-arrow-right-up-line"></i></a>
+    <button class="nav-toggle" aria-label="Menu"><i class="ri-menu-3-line"></i></button>
+  </div>
+</header>
+
+<div class="mobile-menu">
+  <a href="index.html">Home <i class="ri-arrow-right-up-line"></i></a>
+  <a href="about.html">About <i class="ri-arrow-right-up-line"></i></a>
+  <a href="mining.html">Mining <i class="ri-arrow-right-up-line"></i></a>
+  <a href="gold-trading.html">Gold Trading <i class="ri-arrow-right-up-line"></i></a>
+  <a href="construction.html">Construction Supplies <i class="ri-arrow-right-up-line"></i></a>
+  <a href="investment.html">Investment <i class="ri-arrow-right-up-line"></i></a>
+  <a href="contact.html">Contact <i class="ri-arrow-right-up-line"></i></a>
+</div>
+
+<!-- HERO SLIDER -->
+<section class="hero-slider">
+  <div class="slide active">
+    <img src="images/u1.jpg" alt="Mining tunnel"/>
+    <div class="container hero-slider-inner">
+      <div class="hero-slider-content">
+        <span class="eyebrow">Mwanza · Tanzania</span>
+        <h1>We mine gold in Geita<br/>and Tabora.</h1>
+        <p>Two sites, one team, and a way of working that hasn't changed since the day we opened.</p>
+        <div style="display:flex; gap:12px; flex-wrap:wrap;">
+          <a href="mining.html" class="btn btn-primary" style="background:var(--gold); color:var(--ink);">See the Mines <i class="ri-arrow-right-line"></i></a>
+          <a href="contact.html" class="btn btn-ghost" style="color:white; border-color:rgba(255,255,255,0.25);">Talk to Us <i class="ri-arrow-right-line"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slide">
+    <img src="images/u3.jpg" alt="Gold close-up"/>
+    <div class="container hero-slider-inner">
+      <div class="hero-slider-content">
+        <span class="eyebrow">Buying &amp; Selling</span>
+        <h1>Our gold desk weighs every bar<br/>in front of you.</h1>
+        <p>Honest scales, real paperwork, and the same handshake every time.</p>
+        <div style="display:flex; gap:12px; flex-wrap:wrap;">
+          <a href="gold-trading.html" class="btn btn-primary" style="background:var(--gold); color:var(--ink);">Visit the Desk <i class="ri-arrow-right-line"></i></a>
+          <a href="contact.html" class="btn btn-ghost" style="color:white; border-color:rgba(255,255,255,0.25);">Talk to Us <i class="ri-arrow-right-line"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slide">
+    <img src="images/u2.jpg" alt="Processing plant"/>
+    <div class="container hero-slider-inner">
+      <div class="hero-slider-content">
+        <span class="eyebrow">The Yard</span>
+        <h1>And the materials that build<br/>the country.</h1>
+        <p>Cement, steel, pipes and tools — wholesale from our yard in Mwanza.</p>
+        <div style="display:flex; gap:12px; flex-wrap:wrap;">
+          <a href="construction.html" class="btn btn-primary" style="background:var(--gold); color:var(--ink);">Browse Supplies <i class="ri-arrow-right-line"></i></a>
+          <a href="contact.html" class="btn btn-ghost" style="color:white; border-color:rgba(255,255,255,0.25);">Talk to Us <i class="ri-arrow-right-line"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container hero-slide-meta">
+    <span class="num">01</span><span class="gold-bar"></span><span>of <span class="total">03</span></span>
+  </div>
+
+  <div class="hero-slider-controls">
+    <div class="hero-dots">
+      <button class="hero-dot active" aria-label="Slide 1"></button>
+      <button class="hero-dot" aria-label="Slide 2"></button>
+      <button class="hero-dot" aria-label="Slide 3"></button>
+    </div>
+    <div class="hero-arrows">
+      <button class="hero-arrow prev" aria-label="Previous"><i class="ri-arrow-left-line"></i></button>
+      <button class="hero-arrow next" aria-label="Next"><i class="ri-arrow-right-line"></i></button>
+    </div>
+  </div>
+</section>
+
+<!-- INTRO -->
+<section class="section">
+  <div class="container">
+    <div class="two-col">
+      <div>
+        <span class="eyebrow reveal">Who we are</span>
+        <h2 class="font-display reveal mt-4" style="font-size:clamp(36px,5vw,60px); --reveal-delay:.1s">
+          A Tanzanian house,<br/><span class="italic">three things we do well.</span>
+        </h2>
+      </div>
+      <div class="reveal" style="--reveal-delay:.2s">
+        <p style="font-size:18px; color:var(--ink-soft); line-height:1.8;">
+          NIPANA Atlas began in Misungwi with one mining concession and a small warehouse. Today
+          we run three mines, a gold buying and selling desk, and a wholesale yard that keeps
+          builders and engineers across the lake region supplied.
+        </p>
+        <p style="font-size:18px; color:var(--ink-soft); line-height:1.8; margin-top:20px;">
+          We answer the phone. We weigh in front of you. We deliver when we say we will.
+        </p>
+        <a href="about.html" class="text-link mt-8" style="margin-top:32px;">More about us <i class="ri-arrow-right-line"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- METRICS -->
+<section style="padding:0 0 64px;">
+  <div class="container">
+    <div class="hero-strip reveal-stagger" style="margin-top:0;">
+      <div class="metric">
+        <div class="num"><span data-counter="2" data-duration="1400">0</span></div>
+        <div class="label">Mines in Geita and Tabora</div>
+      </div>
+      <div class="metric">
+        <div class="num"><span data-counter="240" data-duration="2000">0</span><span class="suffix">+</span></div>
+        <div class="label">Items in the warehouse</div>
+      </div>
+      <div class="metric">
+        <div class="num"><span data-counter="180" data-duration="2200">0</span><span class="suffix">+</span></div>
+        <div class="label">People on the team</div>
+      </div>
+      <div class="metric">
+        <div class="num"><span data-counter="6" data-duration="1600">0</span></div>
+        <div class="label">Days a week, doors open</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PILLARS -->
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow reveal">What we do</span>
+        <h2 class="font-display reveal" style="--reveal-delay:.1s">
+          Three jobs.<br /><span class="italic">One yard.</span>
+        </h2>
+      </div>
+      <p class="reveal" style="--reveal-delay:.2s">
+        From the pit in Geita to the yard in Mwanza, it's the same team and the same handshake.
+      </p>
+    </div>
+
+    <div class="pillar-grid reveal-stagger">
+      <article class="pillar">
+        <div class="pillar-num">/ 01</div>
+        <div class="pillar-icon"><i class="ri-mountain-line"></i></div>
+        <h3>Gold Mining</h3>
+        <p>Two sites — Geita and Tabora — worked carefully, with Mwanza handling the processing and trade.</p>
+        <a href="mining.html" class="arrow">See the mines <i class="ri-arrow-right-line"></i></a>
+      </article>
+      <article class="pillar">
+        <div class="pillar-num">/ 02</div>
+        <div class="pillar-icon"><i class="ri-coin-line"></i></div>
+        <h3>Buying &amp; Selling Gold</h3>
+        <p>Our desk in Mwanza buys from licensed producers and sells to verified buyers. Honest scales, honest paperwork.</p>
+        <a href="gold-trading.html" class="arrow">Visit the desk <i class="ri-arrow-right-line"></i></a>
+      </article>
+      <article class="pillar">
+        <div class="pillar-num">/ 03</div>
+        <div class="pillar-icon"><i class="ri-building-2-line"></i></div>
+        <h3>Construction Supplies</h3>
+        <p>Cement, steel, pipes, tools, water heaters. The everyday stuff sites run on — at fair wholesale prices.</p>
+        <a href="construction.html" class="arrow">Browse supplies <i class="ri-arrow-right-line"></i></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT TEASE -->
+<section class="section" style="background:var(--bg-alt);">
+  <div class="container">
+    <div class="two-col media">
+      <div class="reveal">
+        <div class="media-frame">
+          <img src="images/u2.jpg" alt="Processing plant" loading="lazy"/>
+        </div>
+      </div>
+      <div>
+        <span class="eyebrow reveal">Our home ground</span>
+        <h2 class="font-display reveal mt-4" style="font-size:clamp(36px,5vw,52px); --reveal-delay:.1s">
+          Built in Mwanza,<br/><span class="italic">working across the lake.</span>
+        </h2>
+        <p class="reveal mt-8" style="--reveal-delay:.2s; color:var(--ink-soft); font-size:17px; line-height:1.8;">
+          Our office and main yard sit on Nyang'homango Road in Misungwi. It's a working
+          place, not a showroom. Trucks come and go. Men weigh ore in the morning and
+          load cement in the afternoon. The board meets in the same building.
+        </p>
+        <p class="reveal" style="--reveal-delay:.3s; color:var(--ink-soft); font-size:17px; line-height:1.8; margin-top:16px;">
+          That closeness is the point. Fewer hand-offs. Fewer surprises.
+        </p>
+        <div class="reveal mt-8" style="--reveal-delay:.4s">
+          <a href="about.html" class="text-link">Read our story <i class="ri-arrow-right-up-line"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SITES -->
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow reveal">The three sites</span>
+        <h2 class="font-display reveal" style="--reveal-delay:.1s">
+          North, South,<br/><span class="italic">and Central.</span>
+        </h2>
+      </div>
+      <p class="reveal" style="--reveal-delay:.2s">
+        Geita and Tabora feed the mine; Mwanza handles the work that comes after. That is the rhythm we keep.
+      </p>
+    </div>
+
+    <div class="site-grid reveal-stagger">
+      <a href="mining.html" class="site-card">
+        <img src="images/u1.jpg" alt="Geita site" loading="lazy" />
+        <div class="site-card-content">
+          <div class="site-card-tag">Site / 01</div>
+          <h4>Geita site</h4>
+          <p>Our main pit — where most of the gold comes from.</p>
+        </div>
+      </a>
+      <a href="mining.html" class="site-card">
+        <img src="images/u2.jpg" alt="Tabora site" loading="lazy" />
+        <div class="site-card-content">
+          <div class="site-card-tag">Site / 02</div>
+          <h4>Tabora site</h4>
+          <p>Still drilling. Quiet for now, busy in a year or two.</p>
+        </div>
+      </a>
+      <a href="mining.html" class="site-card">
+        <img src="images/u3.jpg" alt="Mwanza processing base" loading="lazy" />
+        <div class="site-card-content">
+          <div class="site-card-tag">Site / 03</div>
+          <h4>Mwanza base</h4>
+          <p>Where ore is crushed, washed, and turned into doré.</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- VALUES -->
+<section class="section">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow center reveal">How we work</span>
+      <h2 class="font-display reveal" style="--reveal-delay:.1s">Four things we don't<br/><span class="italic">cut corners on.</span></h2>
+    </div>
+    <div class="value-grid reveal-stagger">
+      <div class="value-card">
+        <i class="ri-shield-check-line"></i>
+        <h4>Clean Books</h4>
+        <p>Every gram weighed, every receipt filed. The Mining Commission and the auditor see the same numbers we do.</p>
+      </div>
+      <div class="value-card">
+        <i class="ri-leaf-line"></i>
+        <h4>Better Land</h4>
+        <p>We rehabilitate as we mine. Pits are recontoured, water is contained, and we replant before we move on.</p>
+      </div>
+      <div class="value-card">
+        <i class="ri-team-line"></i>
+        <h4>Local Hands</h4>
+        <p>Most of our crew is from villages around the sites. We train, we promote, and we keep wages on time.</p>
+      </div>
+      <div class="value-card">
+        <i class="ri-scales-3-line"></i>
+        <h4>Fair Price</h4>
+        <p>What you see is what you pay. No hidden margins on cement when the market gets tight.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand"><img src="images/logo.png" alt="NIPANA Atlas" class="footer-logo"/></div>
+        <p class="footer-desc">A Tanzanian company working in gold mining, gold trade, and the
+          wholesale of construction, hardware, plumbing and heating goods. Based in Mwanza.</p>
+      </div>
+      <div>
+        <h5>What we do</h5>
+        <ul>
+          <li><a href="mining.html">Mining</a></li>
+          <li><a href="gold-trading.html">Gold Trading</a></li>
+          <li><a href="construction.html">Construction Supplies</a></li>
+          <li><a href="investment.html">Investment</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Company</h5>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="about.html#timeline">Our Story</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Find us</h5>
+        <ul>
+          <li style="color:rgba(255,255,255,0.55);font-size:13px;line-height:1.7;">
+            Plot 27, Block A, House 35<br/>
+            Nyang'homango Road, Usagara<br/>
+            Misungwi, Mwanza, Tanzania<br/>
+            P.O. Box 20 · 33517
+          </li>
+          <li style="margin-top:12px"><a href="mailto:info@nipanaatlas.co.tz">info@nipanaatlas.co.tz</a></li>
+          <li><a href="tel:+255777913152">+255 777 913 152</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> NIPANA Atlas Corporation Limited.</span>
+      <span>Mwanza · Tanzania</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
