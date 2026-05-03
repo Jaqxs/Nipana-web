@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nipanaatlas.co.tz/sitemap.xml
